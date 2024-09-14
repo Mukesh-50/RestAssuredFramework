@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-08T09:34:08 IST" name="Suite" finished-at="2024-09-08T09:34:16 IST" duration-ms="8029">
+    <groups>
+    </groups>
+    <test started-at="2024-09-08T09:34:08 IST" name="Test" finished-at="2024-09-08T09:34:16 IST" duration-ms="8029">
+      <class name="tests.E2ETestForBooking">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.E2ETestForBooking@2c1156a7]" started-at="2024-09-08T09:34:08 IST" name="setup" finished-at="2024-09-08T09:34:12 IST" duration-ms="4142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createBooking()[pri:0, instance:tests.E2ETestForBooking@2c1156a7]" started-at="2024-09-08T09:34:12 IST" name="createBooking" finished-at="2024-09-08T09:34:13 IST" duration-ms="1439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="updateBooking()[pri:1, instance:tests.E2ETestForBooking@2c1156a7]" started-at="2024-09-08T09:34:13 IST" name="updateBooking" finished-at="2024-09-08T09:34:15 IST" depends-on-methods="tests.E2ETestForBooking.createBooking" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+        <test-method signature="deleteBooking()[pri:2, instance:tests.E2ETestForBooking@2c1156a7]" started-at="2024-09-08T09:34:15 IST" name="deleteBooking" finished-at="2024-09-08T09:34:16 IST" depends-on-methods="tests.E2ETestForBooking.createBooking" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+      </class> <!-- tests.E2ETestForBooking -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
