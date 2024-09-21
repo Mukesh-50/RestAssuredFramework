@@ -27,6 +27,14 @@ public class CustomDataProvider
 		arr[1][5]="2024-12-15";
 		arr[1][6]="2024-12-25";
 		
+		arr[2][0]="Samir";
+		arr[2][1]="Arora";
+		arr[2][2]=510;
+		arr[2][3]=true;
+		arr[2][4]="BF";
+		arr[2][5]="2024-12-30";
+		arr[2][6]="2024-12-31";
+		
 		System.out.println("Booking Details Generated");
 	
 		return arr;
