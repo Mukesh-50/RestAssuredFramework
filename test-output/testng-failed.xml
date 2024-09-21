@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.BookingAPIUsinFrameworkUsingPOJOBuilder2">
+      <class name="tests.E2ETestForBookingDDT">
         <methods>
-          <include name="setup"/>
           <include name="createBooking"/>
-          <include name="deleteBooking"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tests.BookingAPIUsinFrameworkUsingPOJOBuilder2 -->
+      </class> <!-- tests.E2ETestForBookingDDT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
